@@ -18,15 +18,13 @@ The `crossword-setup.ipynb` notebook connects you to a locally hosted LLM.
 
 The `crossword-create-puzzle.ipynb` notebook generates the puzzle.
 
-The example code creates a puzzle based on the Harry Potter series. This is the
-query prompt: `query="Get the name of a Harry Potter character or the name of a
-place associated with Harry Potter"`.
-
-To change the puzzle topic, edit the query prompt.
+The example code creates a puzzle based on the Sherlock Holmes stories. To
+change the puzzle topic, edit the query prompt.
 
 ## Requirements
 
-This project requires [Ollama](https://ollama.com/).
+This project requires [Ollama](https://ollama.com/). If haven't already
+installed Ollama, follow the instructions on the Ollama website to download it.
 
 ## Credits
 
