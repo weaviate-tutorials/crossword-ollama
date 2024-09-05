@@ -8,7 +8,7 @@ to the LLM.
 
 ## Get started
 
-There are two notebooks in the `juypter-notebooks` directory.
+There are two notebooks in the `jupyter-notebooks` directory.
 
 ### Setup
 
