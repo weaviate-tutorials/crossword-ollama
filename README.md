@@ -3,12 +3,14 @@
 This repository contains code that creates clues and answers for a topic
 that you supply. It uses the clue-answer pairs to create a crossword puzzle.
 
+The project uses an LLM from [Ollama](https://ollama.com/) that is hosted
+locally. Ollama provides an interface to the LLM.
+
 The first notebook shows you how to import data and create a collection that
 you can use to generate the clue-answer pairs. The example uses Sherlock Holmes
 as a subject. You can also change the subject and the input data.
 
-The generator part uses an LLM from Ollama that is hosted locally. Ollama
-provides an interface to the LLM.
+The other notebook generates the puzzle.
 
 ## Get started
 
@@ -35,8 +37,8 @@ The `crossword-create-puzzle.ipynb` notebook does these things:
 
 ## Requirements
 
-This project requires [Ollama](https://ollama.com/). If haven't already
-installed Ollama, follow the instructions on the Ollama website to download it.
+This project requires Ollama. If haven't already installed Ollama, follow the
+instructions on the Ollama website to download it.
 
 There are sample data files from [Project Gutenberg](https://www.gutenberg.org/)
 in the `inputs` folder. If you want to change the data in the collection, you
