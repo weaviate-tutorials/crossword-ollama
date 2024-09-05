@@ -14,11 +14,12 @@ The other notebook generates the puzzle.
 
 ## Get started
 
-There are two notebooks in the `jupyter-notebooks` directory
-[`crossword-setup.ipynb`](#setup) and
-[`crossword-create-puzzle.ipynb`](#generate-a-puzzle).
+There are two notebooks in the `jupyter-notebooks` directory:
 
-### Setup
+- [`crossword-setup.ipynb`](#crcrossword-setupipynb)
+- [`crossword-create-puzzle.ipynb`](#crossword-create-puzzleipynb).
+
+### crossword-setup.ipynb
 
 The `crossword-setup.ipynb` notebook does these things:
 
@@ -27,7 +28,7 @@ The `crossword-setup.ipynb` notebook does these things:
 - Imports data
 - Connects you to a locally hosted LLM
 
-### Generate a puzzle
+### crossword-create-puzzle.ipynb
 
 The `crossword-create-puzzle.ipynb` notebook does these things:
 
